@@ -34,7 +34,7 @@ public class Ejercicio03 {
 		//Ask for the coefficient b
 		System.out.println("Introduce el valor de c:");
 		// And read it
-		sc = sc.nextInt();
+		c = sc.nextInt();
 		
 		//Now make the equation but only what is inside the root, not counting the -b outside It.
 		//If the operation is -b ± square-root(b * b - 4 * a * c) we are going to make first the operations INSIDE the root, then apply it
@@ -56,6 +56,8 @@ public class Ejercicio03 {
             System.out.println("No hay soluciones reales.");
 		
 		sc.close();
+        }
+
 	}
 
 }
