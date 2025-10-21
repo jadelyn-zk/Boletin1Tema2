@@ -10,9 +10,9 @@ public class Ejercicio04 {
 		Scanner sc = new Scanner(System.in);
 		
 		//Create a variable for the number we ask the user
-		int num; 
+		int num;
 		
-		//Ask it
+		//Ask the user for a number
 		System.out.println("Introduce un número: ");
 		//And read it
 		num = sc.nextInt();
@@ -30,7 +30,6 @@ public class Ejercicio04 {
 			System.out.println("El número introducido tienes 5 cifras");
 		} else if (num >= 1000000 && num < 10000000) {
 			System.out.println("El número introducido tienes 6 cifras");
-		
 		
 		//And finally close the scanner
 		sc.close();
